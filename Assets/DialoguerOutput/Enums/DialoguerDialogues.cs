@@ -2,4 +2,5 @@
 //	Do not modify this file, it will be overwritten by Dialoguer.
 public enum DialoguerDialogues{
 	TestDialogue = 0,
+	Dish_Test = 1,
 }
