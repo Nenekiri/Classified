@@ -161,7 +161,7 @@ MonoBehaviour:
         type: 0
         theme: 
         position: {x: 225, y: 33}
-        outs: 01000000
+        outs: 02000000
         advanced: 0
         metadata: 
         text: "That's my water dish. \nThe other guards decided to give\nit to me
@@ -192,11 +192,178 @@ MonoBehaviour:
       - id: 1
         type: 6
         theme: 
-        position: {x: 598, y: 69}
+        position: {x: 1113, y: 119}
         outs: 
         advanced: 0
         metadata: 
         text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 0
+        theme: 
+        position: {x: 548, y: 42}
+        outs: 03000000
+        advanced: 0
+        metadata: 
+        text: What is that word on the side?
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 0
+        theme: 
+        position: {x: 71, y: 262}
+        outs: 04000000
+        advanced: 0
+        metadata: 
+        text: 'Ah, yes. The letters C, U, and R. It spells out
+
+          cur. The name for a mixed breed mongrel.
+
+          Unfit to walk the streets.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 1
+        theme: 
+        position: {x: 502, y: 247}
+        outs: 0500000006000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices:
+        - It fits you well.
+        - That's horrible!
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 5
+        type: 0
+        theme: 
+        position: {x: 834, y: 191}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 'I thought you might say that. You guards really
+
+          are all the same. '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 6
+        type: 0
+        theme: 
+        position: {x: 836, y: 375}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 'What do you care? I''m just a prisoner after
+
+          all. No different from the rest of the rabble
+
+          in here. '
         name: 
         portrait: 
         audio: 
