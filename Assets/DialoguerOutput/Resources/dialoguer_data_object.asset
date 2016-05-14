@@ -155,7 +155,7 @@ MonoBehaviour:
     - id: 1
       name: Dish Test
       startPage: 0
-      scrollPosition: {x: 0, y: 0}
+      scrollPosition: {x: 146.052094, y: 60}
       phases:
       - id: 0
         type: 0
@@ -258,11 +258,8 @@ MonoBehaviour:
         outs: 04000000
         advanced: 0
         metadata: 
-        text: 'Ah, yes. The letters C, U, and R. It spells out
-
-          cur. The name for a mixed breed mongrel.
-
-          Unfit to walk the streets.'
+        text: "Ah, yes. The letters C, U, and R.\nIt spells out cur. The name for
+          a \nmixed breed mongrel.\nUnfit to walk the streets."
         name: 
         portrait: 
         audio: 
@@ -326,9 +323,7 @@ MonoBehaviour:
         outs: 01000000
         advanced: 0
         metadata: 
-        text: 'I thought you might say that. You guards really
-
-          are all the same. '
+        text: "I thought you might say that. \nYou guards really\nare all the same. "
         name: 
         portrait: 
         audio: 
@@ -359,11 +354,211 @@ MonoBehaviour:
         outs: 01000000
         advanced: 0
         metadata: 
-        text: 'What do you care? I''m just a prisoner after
-
-          all. No different from the rest of the rabble
-
-          in here. '
+        text: "What do you care? \nI'm just a prisoner after all. \nNo different from
+          the rest \nof the rabble in here. "
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 2
+      name: Book Test
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 172, y: 11}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: What's this?
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 0
+        theme: 
+        position: {x: 174, y: 142}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: "That's nothing! It's just a book. \nYou can't take a book away \nfrom
+          me!"
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 1
+        theme: 
+        position: {x: 177, y: 272}
+        outs: 0300000005000000
+        advanced: 0
+        metadata: 
+        text: What will you do?
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices:
+        - Take book
+        - Leave it be
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 0
+        theme: 
+        position: {x: 520, y: 31}
+        outs: 04000000
+        advanced: 0
+        metadata: 
+        text: "You'll regret that, guard. \nMark my words. \n"
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 6
+        theme: 
+        position: {x: 922, y: 42}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 5
+        type: 0
+        theme: 
+        position: {x: 545, y: 198}
+        outs: 04000000
+        advanced: 0
+        metadata: 
+        text: "Thank you. I'm glad someone \nhere follows protocols."
         name: 
         portrait: 
         audio: 

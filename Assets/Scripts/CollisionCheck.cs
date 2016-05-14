@@ -22,6 +22,7 @@ public class CollisionCheck : MonoBehaviour {
             //reset the variables and the cursor
             Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
             Globals.dishCursor = false;
+            Globals.runicCursor = false; 
             Globals.flashCursor = true; 
 
 
@@ -36,6 +37,9 @@ public class CollisionCheck : MonoBehaviour {
 
         if (Globals.dishCursor == true) {
             Dialoguer.StartDialogue(1); 
+        }
+        if (Globals.runicCursor == true) {
+            Dialoguer.StartDialogue(2); 
         }
 
     }//end of OnMouseDown
