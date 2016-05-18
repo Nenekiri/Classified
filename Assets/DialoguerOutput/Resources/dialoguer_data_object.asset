@@ -26,7 +26,7 @@ MonoBehaviour:
         outs: 01000000
         advanced: 0
         metadata: 
-        text: "Ok let's see if we can't \nget this to work again. "
+        text: '...'
         name: 
         portrait: 
         audio: 
@@ -57,7 +57,11 @@ MonoBehaviour:
         outs: 02000000
         advanced: 0
         metadata: 
-        text: "This should just keep going \non and on..."
+        text: 'Look around if you must,
+
+          you''ll find nothing incriminating
+
+          here.'
         name: 
         portrait: 
         audio: 
@@ -82,40 +86,9 @@ MonoBehaviour:
         variableGetValue: 
         messageName: 
       - id: 2
-        type: 0
-        theme: 
-        position: {x: 791, y: 50}
-        outs: 03000000
-        advanced: 0
-        metadata: 
-        text: 'Until it reaches right here. '
-        name: 
-        portrait: 
-        audio: 
-        audioDelay: 0
-        rect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        newWindow: 0
-        choices: []
-        waitType: 0
-        waitDuration: 0
-        variableScope: 0
-        variableType: 0
-        variableId: 0
-        variableScrollPosition: {x: 0, y: 0}
-        variableSetEquation: 0
-        variableSetValue: 
-        variableGetEquation: 0
-        variableGetValue: 
-        messageName: 
-      - id: 3
         type: 6
         theme: 
-        position: {x: 1141, y: 70}
+        position: {x: 827, y: 41}
         outs: 
         advanced: 0
         metadata: 
@@ -559,6 +532,144 @@ MonoBehaviour:
         advanced: 0
         metadata: 
         text: "Thank you. I'm glad someone \nhere follows protocols."
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 3
+      name: Chamber Test
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 185, y: 41}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: Sir, I prefer not to talk about that.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 0
+        theme: 
+        position: {x: 185, y: 171}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: And why not?
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 0
+        theme: 
+        position: {x: 184, y: 304}
+        outs: 03000000
+        advanced: 0
+        metadata: 
+        text: It's unseemly! That's why!
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 6
+        theme: 
+        position: {x: 512, y: 330}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
         name: 
         portrait: 
         audio: 

@@ -41,6 +41,9 @@ public class CollisionCheck : MonoBehaviour {
         if (Globals.runicCursor == true) {
             Dialoguer.StartDialogue(2); 
         }
+        if (Globals.chamberCursor == true) {
+            Dialoguer.StartDialogue(3); 
+        }
 
     }//end of OnMouseDown
 

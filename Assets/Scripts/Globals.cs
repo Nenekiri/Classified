@@ -8,7 +8,8 @@ public class Globals : MonoBehaviour {
     public static bool flashCursor = true; 
     public static bool dishCursor = false;
     public static bool runicCursor = false;
-    public static bool tookBook = false; 
+    public static bool tookBook = false;
+    public static bool chamberCursor = false; 
 
 
 	// Use this for initialization
