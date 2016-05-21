@@ -33,6 +33,10 @@ MonoBehaviour:
     dataGUID: 
     managed: 0
     loadable: 0
+  - assetGUID: b2e1305eef6c84740a10cc5db3b89df0
+    dataGUID: 
+    managed: 0
+    loadable: 0
   fontIndex:
   - assetGUID: 063b15d80dbb4604d890600a64c79cf8
     dataGUID: e7a6b09a73c6b2b4f8060096ddbd3b5e
@@ -767,6 +771,85 @@ MonoBehaviour:
     - 1463520382.99578
     - 1463520580.02905
     - 1463520644.01678
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: TitleCardCol
+    spriteCollectionGUID: 006a2d4b94456d74e8c67b2cbdc9f9d9
+    spriteCollectionDataGUID: 14e620b8697ac4e4f9d4f354c1a3198f
+    spriteNames:
+    - Title1
+    - Title10
+    - Title11
+    - Title12
+    - Title13
+    - Title14
+    - Title15
+    - Title16
+    - Title17
+    - Title18
+    - Title19
+    - Title2
+    - Title20
+    - Title21
+    - Title22
+    - Title23
+    - Title3
+    - Title4
+    - Title5
+    - Title6
+    - Title7
+    - Title8
+    - Title9
+    spriteTextureGUIDs:
+    - 033abe7b805a09741b97ca2e02ae1bba
+    - a11904225970443409b7df49bc270461
+    - e77583d188984d948b7de2cb833861b5
+    - f453e4c803cc0994c99b73091f06534a
+    - 096bf00ab85018c40b9c7e5cb19f7e08
+    - 4153d1b75f5647a458bddc32902a39c0
+    - ee0260ff5aa3bb546b784a56a9779c86
+    - 7978f54550eca2241a2b36f502a75a17
+    - 273537f7bef50e542bfded01bdbb8ae9
+    - cbf2c0cf6ae3b034987a406efb0cd981
+    - 57788796f399b514686ed6d301ae2a1e
+    - 519157863f8cb2041b66889821557779
+    - e523b11031fa79c42aeb5c9cbbacb5e4
+    - eecc52b2f1ce10248a156f903a71e4a7
+    - 47422c71b60c06f429b1bba370f28dab
+    - feef16b2497a1f54eb5f358336218024
+    - b8a99daacf428284797d0ccc6aebd211
+    - a3c9fa4c93ea61e42a46ca92db13af61
+    - 6d7ec36c2c1ac7849838317e609902d5
+    - 7cd4cc0a5f62f154685042baa85e182c
+    - db2562457d1d349459f571325a207573
+    - bf1919a3fc9b90e4eb984ca086595fa0
+    - 92a53949779ca4a45880b79a91b7e469
+    spriteTextureTimeStamps:
+    - 1463699078.07711
+    - 1463700212.26372
+    - 1463700240.48671
+    - 1463700265.77613
+    - 1463700289.87179
+    - 1463700316.67224
+    - 1463700365.83275
+    - 1463700439.45587
+    - 1463700464.85056
+    - 1463700499.9674
+    - 1463700537.70284
+    - 1463699537.0723
+    - 1463700565.54189
+    - 1463700642.28342
+    - 1463700845.65041
+    - 1463701028.82643
+    - 1463699694.45669
+    - 1463699451.79793
+    - 1463699927.38312
+    - 1463700068.6301
+    - 1463700094.68757
+    - 1463700142.18243
+    - 1463700173.64479
     managedSpriteCollection: 0
     loadable: 0
     assetName: 

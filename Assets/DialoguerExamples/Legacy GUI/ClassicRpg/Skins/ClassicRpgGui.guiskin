@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 12001, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: ClassicRpgGui
   m_EditorClassIdentifier: 
-  m_Font: {fileID: 12800000, guid: a9e4b266fcbe948b8b4c381d93e6c452, type: 3}
+  m_Font: {fileID: 12800000, guid: bb12187459f207346bb984cc0f8082ba, type: 3}
   m_box:
     m_Name: box
     m_Normal:
@@ -1311,7 +1311,7 @@ MonoBehaviour:
     m_StretchHeight: 0
   - m_Name: box_cursor
     m_Normal:
-      m_Background: {fileID: 2800000, guid: 7b923961a85ee44ef8b87add44047eb3, type: 3}
+      m_Background: {fileID: 2800000, guid: 74ec659bf9478ef4ea50bc15907b7efd, type: 3}
       m_TextColor: {r: 1, g: 1, b: 1, a: 1}
     m_Hover:
       m_Background: {fileID: 0}

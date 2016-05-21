@@ -11,7 +11,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: DefaultCompany
   productName: Classified
-  defaultCursor: {fileID: 2800000, guid: 3466edefc95f90c4dbbd1275bc1dfc1a, type: 3}
+  defaultCursor: {fileID: 2800000, guid: b1f24ee8606bcee47a5002e6c3a45c94, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_ShowUnitySplashScreen: 1
   defaultScreenWidth: 1024

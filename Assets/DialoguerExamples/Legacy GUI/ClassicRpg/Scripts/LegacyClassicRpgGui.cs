@@ -258,7 +258,7 @@ public class LegacyClassicRpgGui : MonoBehaviour
 	// Draws a dialogue box
 	private void drawDialogueBox(Rect rect)
 	{
-		drawDialogueBox(rect, new Color(45 / 255.0F, 111f / 255.0F, 255 / 255.0F));
+		drawDialogueBox(rect, new Color(0 / 255.0F, 0f / 255.0F, 51 / 255.0F)); //default values are 45 / 255.0F, 111f / 255.0F, 255.0F, 255 / 255.0F
 	}
 
 	private void drawDialogueBox(Rect rect, Color color)

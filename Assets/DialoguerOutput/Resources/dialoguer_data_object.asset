@@ -376,8 +376,8 @@ MonoBehaviour:
         text: What's this?
         name: 
         portrait: 
-        audio: 
-        audioDelay: 0
+        audio: '"Notification"'
+        audioDelay: 2
         rect:
           serializedVersion: 2
           x: 0
@@ -400,7 +400,7 @@ MonoBehaviour:
       - id: 1
         type: 0
         theme: 
-        position: {x: 174, y: 142}
+        position: {x: 481, y: 268}
         outs: 02000000
         advanced: 0
         metadata: 
@@ -432,7 +432,7 @@ MonoBehaviour:
       - id: 2
         type: 1
         theme: 
-        position: {x: 177, y: 272}
+        position: {x: 486, y: 407}
         outs: 0300000005000000
         advanced: 0
         metadata: 
@@ -527,7 +527,7 @@ MonoBehaviour:
       - id: 5
         type: 0
         theme: 
-        position: {x: 545, y: 198}
+        position: {x: 899, y: 184}
         outs: 04000000
         advanced: 0
         metadata: 
