@@ -128,7 +128,7 @@ MonoBehaviour:
     - id: 1
       name: Dish Test
       startPage: 0
-      scrollPosition: {x: 146.052094, y: 60}
+      scrollPosition: {x: 0, y: 60}
       phases:
       - id: 0
         type: 0
@@ -165,7 +165,7 @@ MonoBehaviour:
       - id: 1
         type: 6
         theme: 
-        position: {x: 1113, y: 119}
+        position: {x: 1863, y: 139}
         outs: 
         advanced: 0
         metadata: 
@@ -201,7 +201,7 @@ MonoBehaviour:
         advanced: 0
         metadata: 
         text: What is that word on the side?
-        name: 
+        name: Guard
         portrait: 
         audio: 
         audioDelay: 0
@@ -259,11 +259,11 @@ MonoBehaviour:
       - id: 4
         type: 1
         theme: 
-        position: {x: 502, y: 247}
+        position: {x: 443, y: 344}
         outs: 0500000006000000
         advanced: 0
         metadata: 
-        text: 
+        text: What do you say?
         name: 
         portrait: 
         audio: 
@@ -293,7 +293,7 @@ MonoBehaviour:
         type: 0
         theme: 
         position: {x: 834, y: 191}
-        outs: 01000000
+        outs: 08000000
         advanced: 0
         metadata: 
         text: "I thought you might say that. \nYou guards really\nare all the same. "
@@ -324,7 +324,7 @@ MonoBehaviour:
         type: 0
         theme: 
         position: {x: 836, y: 375}
-        outs: 01000000
+        outs: 08000000
         advanced: 0
         metadata: 
         text: "What do you care? \nI'm just a prisoner after all. \nNo different from
@@ -352,6 +352,99 @@ MonoBehaviour:
         variableGetEquation: 0
         variableGetValue: 
         messageName: 
+      - id: 7
+        type: 3
+        theme: 
+        position: {x: 1168, y: 477}
+        outs: 09000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 1
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 2
+        variableSetValue: 1
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 8
+        type: 4
+        theme: 
+        position: {x: 1171.29492, y: 130}
+        outs: 0700000001000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 1
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: false
+        variableGetEquation: 0
+        variableGetValue: true
+        messageName: 
+      - id: 9
+        type: 3
+        theme: 
+        position: {x: 1515.29492, y: 464}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 1
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: true
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
       floats:
         variables: []
         selection: 0
@@ -359,7 +452,10 @@ MonoBehaviour:
         variables: []
         selection: 0
       booleans:
-        variables: []
+        variables:
+        - name: dishInteract
+          variable: false
+          id: 0
         selection: 0
     - id: 2
       name: Book Test
@@ -374,7 +470,7 @@ MonoBehaviour:
         advanced: 0
         metadata: 
         text: What's this?
-        name: 
+        name: Guard
         portrait: 
         audio: '"Notification"'
         audioDelay: 2
@@ -400,7 +496,7 @@ MonoBehaviour:
       - id: 1
         type: 0
         theme: 
-        position: {x: 481, y: 268}
+        position: {x: 168, y: 155}
         outs: 02000000
         advanced: 0
         metadata: 
@@ -432,7 +528,7 @@ MonoBehaviour:
       - id: 2
         type: 1
         theme: 
-        position: {x: 486, y: 407}
+        position: {x: 166, y: 291}
         outs: 0300000005000000
         advanced: 0
         metadata: 
@@ -465,8 +561,8 @@ MonoBehaviour:
       - id: 3
         type: 0
         theme: 
-        position: {x: 520, y: 31}
-        outs: 04000000
+        position: {x: 486, y: 48}
+        outs: 07000000
         advanced: 0
         metadata: 
         text: "You'll regret that, guard. \nMark my words. \n"
@@ -496,7 +592,7 @@ MonoBehaviour:
       - id: 4
         type: 6
         theme: 
-        position: {x: 922, y: 42}
+        position: {x: 1509, y: 24}
         outs: 
         advanced: 0
         metadata: 
@@ -527,8 +623,8 @@ MonoBehaviour:
       - id: 5
         type: 0
         theme: 
-        position: {x: 899, y: 184}
-        outs: 04000000
+        position: {x: 493, y: 236}
+        outs: 07000000
         advanced: 0
         metadata: 
         text: "Thank you. I'm glad someone \nhere follows protocols."
@@ -555,6 +651,99 @@ MonoBehaviour:
         variableGetEquation: 0
         variableGetValue: 
         messageName: 
+      - id: 6
+        type: 3
+        theme: 
+        position: {x: 841, y: 362}
+        outs: 08000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 1
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 2
+        variableSetValue: 1
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 7
+        type: 4
+        theme: 
+        position: {x: 838, y: 48}
+        outs: 0600000004000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 1
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: false
+        variableGetEquation: 0
+        variableGetValue: true
+        messageName: 
+      - id: 8
+        type: 3
+        theme: 
+        position: {x: 1174, y: 367}
+        outs: 04000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 1
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: true
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
       floats:
         variables: []
         selection: 0
@@ -562,7 +751,10 @@ MonoBehaviour:
         variables: []
         selection: 0
       booleans:
-        variables: []
+        variables:
+        - name: bookInteract
+          variable: false
+          id: 0
         selection: 0
     - id: 3
       name: Chamber Test
@@ -572,7 +764,7 @@ MonoBehaviour:
       - id: 0
         type: 0
         theme: 
-        position: {x: 185, y: 41}
+        position: {x: 167, y: 33}
         outs: 01000000
         advanced: 0
         metadata: 
@@ -603,12 +795,12 @@ MonoBehaviour:
       - id: 1
         type: 0
         theme: 
-        position: {x: 185, y: 171}
+        position: {x: 168, y: 170}
         outs: 02000000
         advanced: 0
         metadata: 
         text: And why not?
-        name: 
+        name: Guard
         portrait: 
         audio: 
         audioDelay: 0
@@ -634,8 +826,8 @@ MonoBehaviour:
       - id: 2
         type: 0
         theme: 
-        position: {x: 184, y: 304}
-        outs: 03000000
+        position: {x: 169, y: 305}
+        outs: 05000000
         advanced: 0
         metadata: 
         text: It's unseemly! That's why!
@@ -665,12 +857,579 @@ MonoBehaviour:
       - id: 3
         type: 6
         theme: 
-        position: {x: 512, y: 330}
+        position: {x: 1343, y: 82}
         outs: 
         advanced: 0
         metadata: 
         text: 
         name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 3
+        theme: 
+        position: {x: 843, y: 105}
+        outs: 06000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 1
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 2
+        variableSetValue: 1
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 5
+        type: 4
+        theme: 
+        position: {x: 497, y: 95}
+        outs: 0400000003000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 1
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: false
+        variableGetEquation: 0
+        variableGetValue: true
+        messageName: 
+      - id: 6
+        type: 3
+        theme: 
+        position: {x: 1231, y: 221}
+        outs: 03000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 1
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: true
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables:
+        - name: potInteract
+          variable: false
+          id: 0
+        selection: 0
+    - id: 4
+      name: First Convo
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 184, y: 11}
+        outs: 03000000
+        advanced: 0
+        metadata: 
+        text: "Here's your new assignment.\nHe's a bit of a troublemaker,\nso I'd
+          watch out if I were you.\n\t(Press Enter)"
+        name: Warden
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 3
+        theme: 
+        position: {x: 1155, y: 144}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: true
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 6
+        theme: 
+        position: {x: 1522, y: 72}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 0
+        theme: 
+        position: {x: 184, y: 141}
+        outs: 04000000
+        advanced: 0
+        metadata: 
+        text: What'd he do?
+        name: Guard
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 0
+        theme: 
+        position: {x: 182, y: 272}
+        outs: 05000000
+        advanced: 0
+        metadata: 
+        text: 'Rumor says he killed some
+
+          guy by the name of Kala.
+
+          Guess he was important enough to
+
+          warrant getting locked up here.'
+        name: Warden
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 5
+        type: 0
+        theme: 
+        position: {x: 186, y: 408}
+        outs: 06000000
+        advanced: 0
+        metadata: 
+        text: "Must've been important to\nget sent to Cathras Prison. \nOnly the worst
+          end up here."
+        name: Guard
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 6
+        type: 0
+        theme: 
+        position: {x: 485, y: 10}
+        outs: 07000000
+        advanced: 0
+        metadata: 
+        text: "Yeah, we tend to get some real \nwinners through here. Anyway, \nyou're
+          here to keep an eye on him\nand confiscate any harmful contraband."
+        name: Warden
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 7
+        type: 0
+        theme: 
+        position: {x: 484, y: 142}
+        outs: 08000000
+        advanced: 0
+        metadata: 
+        text: "He's been sentenced for his crimes\nand is going to hang later this
+          month.\nPrisoners tend to get crafty when \nthey learn they're going to
+          die."
+        name: Warden
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 8
+        type: 0
+        theme: 
+        position: {x: 488, y: 275}
+        outs: 09000000
+        advanced: 0
+        metadata: 
+        text: I don't anticipate a problem.
+        name: Guard
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 9
+        type: 0
+        theme: 
+        position: {x: 488, y: 407}
+        outs: 0a000000
+        advanced: 0
+        metadata: 
+        text: "Good to hear! It gets dark down\nhere so have a flashlight. You can\nmove
+          it with your left hand (wasd) \nand examine items with your right hand (left-mouse
+          click)."
+        name: Warden
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 10
+        type: 0
+        theme: 
+        position: {x: 787, y: 10}
+        outs: 0d000000
+        advanced: 0
+        metadata: 
+        text: ' If you want to examine something else
+
+          you''ll need to put what you have in hand
+
+          down first (right-mouse click). '
+        name: Warden
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 11
+        type: 0
+        theme: 
+        position: {x: 793, y: 267}
+        outs: 0c000000
+        advanced: 0
+        metadata: 
+        text: Sounds easy enough.
+        name: Guard
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 12
+        type: 0
+        theme: 
+        position: {x: 798, y: 406}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 'Wonderful! Then welcome to Cathras
+
+          Prison, Guard! '
+        name: Warden
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 13
+        type: 0
+        theme: 
+        position: {x: 788, y: 139}
+        outs: 0b000000
+        advanced: 0
+        metadata: 
+        text: 'Once you''ve
+
+          searched his cell from top to bottom, you''re
+
+          free to go. '
+        name: Warden
         portrait: 
         audio: 
         audioDelay: 0
@@ -704,10 +1463,16 @@ MonoBehaviour:
         selection: 0
     globals:
       booleans:
-        variables: []
+        variables:
+        - name: FirstConvo
+          variable: false
+          id: 0
         selection: 0
       floats:
-        variables: []
+        variables:
+        - name: FirstDay
+          variable: 3
+          id: 0
         selection: 0
       strings:
         variables: []

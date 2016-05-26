@@ -758,6 +758,46 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2001409176}
   m_RootOrder: 3
+--- !u!1 &852844003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 852844005}
+  - 114: {fileID: 852844004}
+  m_Layer: 0
+  m_Name: Tests more stuff
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &852844004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 852844003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 760743673e57c7740997aa4083c8af5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lit: {fileID: 27514774}
+--- !u!4 &852844005
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 852844003}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.05999994, y: 2.1400001, z: -.699424744}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
 --- !u!1 &868934259
 GameObject:
   m_ObjectHideFlags: 0
@@ -2517,7 +2557,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2108601885}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.829999983, y: -5.0999999, z: -.0869999975}
+  m_LocalPosition: {x: -.574000001, y: -4.47100019, z: -.0869999975}
   m_LocalScale: {x: .100000001, y: .100000001, z: 1}
   m_Children: []
   m_Father: {fileID: 2001409176}
@@ -2603,9 +2643,9 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: 3.61999989, y: -.239999995}
-      - {x: 3.61999989, y: .479999989}
-      - {x: .479999989, y: 3.61999989}
+    - - {x: -.331514478, y: .199055672}
+      - {x: -1.11835301, y: 1.57346249}
+      - {x: -.88683188, y: 1.88868046}
       - {x: -.479999989, y: 3.61999989}
       - {x: -.74000001, y: 3.3599999}
       - {x: -.74000001, y: 3.1400001}

@@ -7,6 +7,8 @@ public class ChamberCheck : MonoBehaviour {
     public CursorMode cursorMode = CursorMode.Auto;
     public Vector2 hotSpot = Vector2.zero;
 
+    
+
     // Use this for initialization
     void Start()
     {
@@ -26,6 +28,7 @@ public class ChamberCheck : MonoBehaviour {
             Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
             Globals.chamberCursor = true;
             Globals.flashCursor = false;
+           
         }
 
 

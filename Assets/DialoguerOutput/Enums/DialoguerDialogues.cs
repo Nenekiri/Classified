@@ -5,4 +5,5 @@ public enum DialoguerDialogues{
 	Dish_Test = 1,
 	Book_Test = 2,
 	Chamber_Test = 3,
+	First_Convo = 4,
 }

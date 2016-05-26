@@ -9,7 +9,9 @@ public class Globals : MonoBehaviour {
     public static bool dishCursor = false;
     public static bool runicCursor = false;
     public static bool tookBook = false;
-    public static bool chamberCursor = false; 
+    public static bool chamberCursor = false;
+
+    public static int FirstDay = 3; 
 
 
 	// Use this for initialization

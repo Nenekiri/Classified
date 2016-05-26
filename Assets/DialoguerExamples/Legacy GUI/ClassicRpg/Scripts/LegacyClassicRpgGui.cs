@@ -106,7 +106,8 @@ public class LegacyClassicRpgGui : MonoBehaviour
 				}
 			}
 		}
-	}
+
+	}//end of update
 
 	#region Dialoguer
 	public void addDialoguerEvents()

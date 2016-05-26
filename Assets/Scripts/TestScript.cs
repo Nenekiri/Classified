@@ -24,7 +24,7 @@ public class TestScript : MonoBehaviour {
     }
 
     void OnGUI() {
-        if (GUI.Button(new Rect(10, 10, 100, 30), "Start!"))
+        /*if (GUI.Button(new Rect(10, 10, 100, 30), "Start!"))
         {
 
             // The preferred way to start dialogues is with the DialoguerDialogues enum
@@ -42,7 +42,7 @@ public class TestScript : MonoBehaviour {
             // By default, the DialoguerDialogues enum is automatically updated when you save your dialogues.
             // You can turn this off in the Dialoguer presferences menu.
 
-        }
+        }*/
     }//end of OnGUI method
 
     //callback method

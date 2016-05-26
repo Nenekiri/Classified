@@ -9,7 +9,9 @@ public class CollisionCheck : MonoBehaviour {
 
     //audio assets
     public AudioClip surprise;
-    public AudioSource source; 
+    public AudioSource source;
+
+
 
     // Use this for initialization
     void Start () {
@@ -28,8 +30,16 @@ public class CollisionCheck : MonoBehaviour {
             Globals.dishCursor = false;
             Globals.runicCursor = false;
             Globals.chamberCursor = false;
-            Globals.flashCursor = true; 
+            Globals.flashCursor = true;
 
+            //Dialoguer.StartDialogue(4); 
+
+
+        }
+
+        if (Dialoguer.GetGlobalFloat(0) == 0f) {
+
+            Application.LoadLevel(0); 
 
         }
             
@@ -41,14 +51,20 @@ public class CollisionCheck : MonoBehaviour {
         Dialoguer.StartDialogue(0);
 
         if (Globals.dishCursor == true) {
-            Dialoguer.StartDialogue(1); 
+            Dialoguer.StartDialogue(1);
+            
+            
         }
         if (Globals.runicCursor == true) {
             Dialoguer.StartDialogue(2);
-            source.PlayOneShot(surprise); 
+            source.PlayOneShot(surprise);
+
+            
         }
         if (Globals.chamberCursor == true) {
-            Dialoguer.StartDialogue(3); 
+            Dialoguer.StartDialogue(3);
+
+           
         }
 
     }//end of OnMouseDown
