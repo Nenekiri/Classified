@@ -6,4 +6,6 @@ public enum DialoguerDialogues{
 	Book_Test = 2,
 	Chamber_Test = 3,
 	First_Convo = 4,
+	Leaving_so_soon = 5,
+	Get_Out = 6,
 }

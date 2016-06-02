@@ -128,7 +128,7 @@ MonoBehaviour:
     - id: 1
       name: Dish Test
       startPage: 0
-      scrollPosition: {x: 0, y: 60}
+      scrollPosition: {x: 711.541016, y: 0}
       phases:
       - id: 0
         type: 0
@@ -165,7 +165,7 @@ MonoBehaviour:
       - id: 1
         type: 6
         theme: 
-        position: {x: 1863, y: 139}
+        position: {x: 1725, y: 99}
         outs: 
         advanced: 0
         metadata: 
@@ -323,7 +323,7 @@ MonoBehaviour:
       - id: 6
         type: 0
         theme: 
-        position: {x: 836, y: 375}
+        position: {x: 830, y: 375}
         outs: 08000000
         advanced: 0
         metadata: 
@@ -355,8 +355,8 @@ MonoBehaviour:
       - id: 7
         type: 3
         theme: 
-        position: {x: 1168, y: 477}
-        outs: 09000000
+        position: {x: 1162, y: 336}
+        outs: 0a000000
         advanced: 0
         metadata: 
         text: 
@@ -386,7 +386,7 @@ MonoBehaviour:
       - id: 8
         type: 4
         theme: 
-        position: {x: 1171.29492, y: 130}
+        position: {x: 1158.83704, y: 11}
         outs: 0700000001000000
         advanced: 0
         metadata: 
@@ -405,20 +405,20 @@ MonoBehaviour:
         choices: []
         waitType: 0
         waitDuration: 0
-        variableScope: 1
+        variableScope: 0
         variableType: 0
-        variableId: 0
+        variableId: 1
         variableScrollPosition: {x: 0, y: 0}
         variableSetEquation: 0
-        variableSetValue: false
-        variableGetEquation: 0
+        variableSetValue: true
+        variableGetEquation: 1
         variableGetValue: true
         messageName: 
       - id: 9
-        type: 3
+        type: 6
         theme: 
-        position: {x: 1515.29492, y: 464}
-        outs: 01000000
+        position: {x: 1956.83704, y: 399}
+        outs: 
         advanced: 0
         metadata: 
         text: 
@@ -436,9 +436,40 @@ MonoBehaviour:
         choices: []
         waitType: 0
         waitDuration: 0
-        variableScope: 1
+        variableScope: 0
         variableType: 0
         variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 10
+        type: 3
+        theme: 
+        position: {x: 1530.37109, y: 322}
+        outs: 09000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 1
         variableScrollPosition: {x: 0, y: 0}
         variableSetEquation: 0
         variableSetValue: true
@@ -460,7 +491,7 @@ MonoBehaviour:
     - id: 2
       name: Book Test
       startPage: 0
-      scrollPosition: {x: 0, y: 0}
+      scrollPosition: {x: 127.601364, y: 0}
       phases:
       - id: 0
         type: 0
@@ -529,7 +560,7 @@ MonoBehaviour:
         type: 1
         theme: 
         position: {x: 166, y: 291}
-        outs: 0300000005000000
+        outs: 0c00000005000000
         advanced: 0
         metadata: 
         text: What will you do?
@@ -561,11 +592,15 @@ MonoBehaviour:
       - id: 3
         type: 0
         theme: 
-        position: {x: 486, y: 48}
-        outs: 07000000
+        position: {x: 505, y: 170}
+        outs: 0d000000
         advanced: 0
         metadata: 
-        text: "You'll regret that, guard. \nMark my words. \n"
+        text: 'But it''s just a book! There''s
+
+          nothing about it that is remotely
+
+          magical. '
         name: 
         portrait: 
         audio: 
@@ -592,7 +627,7 @@ MonoBehaviour:
       - id: 4
         type: 6
         theme: 
-        position: {x: 1509, y: 24}
+        position: {x: 2097, y: 10}
         outs: 
         advanced: 0
         metadata: 
@@ -623,12 +658,14 @@ MonoBehaviour:
       - id: 5
         type: 0
         theme: 
-        position: {x: 493, y: 236}
-        outs: 07000000
+        position: {x: 502, y: 440}
+        outs: 0b000000
         advanced: 0
         metadata: 
-        text: "Thank you. I'm glad someone \nhere follows protocols."
-        name: 
+        text: 'It''s just a book. What real harm
+
+          could it possibly do?'
+        name: Guard
         portrait: 
         audio: 
         audioDelay: 0
@@ -654,7 +691,7 @@ MonoBehaviour:
       - id: 6
         type: 3
         theme: 
-        position: {x: 841, y: 362}
+        position: {x: 1899, y: 126}
         outs: 08000000
         advanced: 0
         metadata: 
@@ -685,7 +722,7 @@ MonoBehaviour:
       - id: 7
         type: 4
         theme: 
-        position: {x: 838, y: 48}
+        position: {x: 1578, y: 13}
         outs: 0600000004000000
         advanced: 0
         metadata: 
@@ -704,19 +741,19 @@ MonoBehaviour:
         choices: []
         waitType: 0
         waitDuration: 0
-        variableScope: 1
+        variableScope: 0
         variableType: 0
-        variableId: 0
+        variableId: 3
         variableScrollPosition: {x: 0, y: 0}
         variableSetEquation: 0
-        variableSetValue: false
-        variableGetEquation: 0
+        variableSetValue: true
+        variableGetEquation: 1
         variableGetValue: true
         messageName: 
       - id: 8
         type: 3
         theme: 
-        position: {x: 1174, y: 367}
+        position: {x: 1906, y: 414}
         outs: 04000000
         advanced: 0
         metadata: 
@@ -735,12 +772,173 @@ MonoBehaviour:
         choices: []
         waitType: 0
         waitDuration: 0
-        variableScope: 1
+        variableScope: 0
+        variableType: 0
+        variableId: 3
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: true
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 9
+        type: 3
+        theme: 
+        position: {x: 884, y: 10}
+        outs: 0a000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 4
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: true
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 10
+        type: 3
+        theme: 
+        position: {x: 1229.42542, y: 182}
+        outs: 07000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 1
+        variableId: 2
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 1
+        variableSetValue: 1
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 11
+        type: 3
+        theme: 
+        position: {x: 912.934204, y: 407}
+        outs: 07000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 1
+        variableId: 1
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 1
+        variableSetValue: 1
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 12
+        type: 0
+        theme: 
+        position: {x: 501.601379, y: 38}
+        outs: 03000000
+        advanced: 0
+        metadata: 
+        text: 'This book could contain strange
+
+          incantations and magics. I can''t
+
+          let you have something so
+
+          potentially dangerous.'
+        name: Guard
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
         variableType: 0
         variableId: 0
         variableScrollPosition: {x: 0, y: 0}
         variableSetEquation: 0
-        variableSetValue: true
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 13
+        type: 0
+        theme: 
+        position: {x: 505.601379, y: 301}
+        outs: 09000000
+        advanced: 0
+        metadata: 
+        text: 'Better to be safe, rather than sorry. '
+        name: Guard
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
         variableGetEquation: 0
         variableGetValue: 
         messageName: 
@@ -938,13 +1136,13 @@ MonoBehaviour:
         choices: []
         waitType: 0
         waitDuration: 0
-        variableScope: 1
+        variableScope: 0
         variableType: 0
-        variableId: 0
+        variableId: 2
         variableScrollPosition: {x: 0, y: 0}
         variableSetEquation: 0
-        variableSetValue: false
-        variableGetEquation: 0
+        variableSetValue: true
+        variableGetEquation: 1
         variableGetValue: true
         messageName: 
       - id: 6
@@ -969,9 +1167,9 @@ MonoBehaviour:
         choices: []
         waitType: 0
         waitDuration: 0
-        variableScope: 1
+        variableScope: 0
         variableType: 0
-        variableId: 0
+        variableId: 2
         variableScrollPosition: {x: 0, y: 0}
         variableSetEquation: 0
         variableSetValue: true
@@ -1387,7 +1585,7 @@ MonoBehaviour:
       - id: 12
         type: 0
         theme: 
-        position: {x: 798, y: 406}
+        position: {x: 792, y: 405}
         outs: 01000000
         advanced: 0
         metadata: 
@@ -1424,12 +1622,297 @@ MonoBehaviour:
         outs: 0b000000
         advanced: 0
         metadata: 
-        text: 'Once you''ve
-
-          searched his cell from top to bottom, you''re
-
-          free to go. '
+        text: "Once you've searched his cell \nfrom top to bottom, you're\nfree to
+          go. "
         name: Warden
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 5
+      name: Leaving so soon?
+      startPage: 1
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 6
+        theme: 
+        position: {x: 471, y: 231}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 0
+        theme: 
+        position: {x: 11, y: 87}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: 'Don''t look at me! I''ve nothing else
+
+          for you to look at. And frankly, I''m
+
+          not really in a talkative mood. '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 0
+        theme: 
+        position: {x: 13, y: 223}
+        outs: 00000000
+        advanced: 0
+        metadata: 
+        text: 'If you want to leave then just
+
+          clock out. '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 6
+      name: Get Out
+      startPage: 1
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 6
+        theme: 
+        position: {x: 646, y: 212}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 0
+        theme: 
+        position: {x: 13, y: 84}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: You should leave...
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 2
+        theme: 
+        position: {x: 13, y: 217}
+        outs: 03000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 1
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 0
+        theme: 
+        position: {x: 12, y: 293}
+        outs: 04000000
+        advanced: 0
+        metadata: 
+        text: 'Look, if you insist on following
+
+          the rules, just be ready to face
+
+          the consequences.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 0
+        theme: 
+        position: {x: 12, y: 426}
+        outs: 00000000
+        advanced: 0
+        metadata: 
+        text: 'Because I will make sure that
+
+          there will be consequences. '
+        name: 
         portrait: 
         audio: 
         audioDelay: 0
@@ -1467,12 +1950,30 @@ MonoBehaviour:
         - name: FirstConvo
           variable: false
           id: 0
+        - name: dishInteract
+          variable: false
+          id: 1
+        - name: potInteract
+          variable: false
+          id: 2
+        - name: bookInteract
+          variable: false
+          id: 3
+        - name: takeBook
+          variable: false
+          id: 4
         selection: 0
       floats:
         variables:
         - name: FirstDay
           variable: 3
           id: 0
+        - name: goodActs
+          variable: 0
+          id: 1
+        - name: badActs
+          variable: 0
+          id: 2
         selection: 0
       strings:
         variables: []

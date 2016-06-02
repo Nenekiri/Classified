@@ -9,3 +9,5 @@ EditorBuildSettings:
     path: Assets/Scenes/TitleCardTesting.unity
   - enabled: 1
     path: Assets/Scenes/TestPicture.unity
+  - enabled: 1
+    path: Assets/Scenes/SecondVisit.unity
