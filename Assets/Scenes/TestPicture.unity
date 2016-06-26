@@ -347,7 +347,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 41cd769336065c24197c4f832b8f7cf8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b629fbb871f8a8b4486ea8153671ef17, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &92902577
 Transform:
@@ -1147,6 +1147,7 @@ MonoBehaviour:
   cursorMode: 0
   hotSpot: {x: 0, y: 0}
   surprise: {fileID: 0}
+  growl: {fileID: 0}
   source: {fileID: 0}
   clock: {fileID: 0}
 --- !u!1001 &1000579115
@@ -1663,6 +1664,7 @@ MonoBehaviour:
   cursorMode: 0
   hotSpot: {x: 0, y: 0}
   surprise: {fileID: 8300000, guid: 08083a982cbd5fe44967b7a8b577fcc7, type: 3}
+  growl: {fileID: 8300000, guid: 15e551a9abb48094ab827ae609cf2031, type: 3}
   source: {fileID: 1416008609}
   clock: {fileID: 0}
 --- !u!50 &1416008605

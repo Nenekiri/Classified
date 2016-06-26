@@ -9,12 +9,15 @@ public class CollisionCheck : MonoBehaviour {
 
     //audio assets
     public AudioClip surprise;
+    public AudioClip growl; 
     public AudioSource source;
 
     //creating and finding the clock gameobject to end the level
-    public GameObject clock; 
+    public GameObject clock;
 
+    private tk2dSpriteAnimator anim;
 
+    private bool animSwitch = false;
 
 
     // Use this for initialization
@@ -22,8 +25,9 @@ public class CollisionCheck : MonoBehaviour {
 
         clock = GameObject.Find("SimpleClock");
         clock.SetActive(false); 
-	
-	}
+        anim = GetComponent<tk2dSpriteAnimator>();
+
+}
 	
 	// Update is called once per frame
 	void Update () {
@@ -44,14 +48,17 @@ public class CollisionCheck : MonoBehaviour {
 
         }
 
-        if (Dialoguer.GetGlobalFloat(0) == 0f) {
-
+        if (Dialoguer.GetGlobalFloat(0) == 0f)
+        {
             clock.SetActive(true); 
-
         }
 
-        Debug.Log(Dialoguer.GetGlobalFloat(1));
-        Debug.Log(Dialoguer.GetGlobalFloat(2)); 
+        //Debug.Log(Dialoguer.GetGlobalFloat(1));
+        //Debug.Log(Dialoguer.GetGlobalFloat(2)); 
+
+        if (Dialoguer.GetGlobalBoolean(3) == true && animSwitch == false) {
+            anim.Play("test2");
+        }
 
     }//end of update
 
@@ -69,6 +76,7 @@ public class CollisionCheck : MonoBehaviour {
         if (Globals.runicCursor == true && Dialoguer.GetGlobalBoolean(3) == false) {
             Dialoguer.StartDialogue(2);
             source.PlayOneShot(surprise);
+            anim.Play("Prisoner Surprise"); 
 
             
         }
@@ -86,7 +94,10 @@ public class CollisionCheck : MonoBehaviour {
         }//normal ending to the first day. Introduces the player to the clock if they haven't clicked on it yet.
 
         if (Dialoguer.GetGlobalFloat(0) == 0f && Dialoguer.GetGlobalBoolean(4) == true) {
-            Dialoguer.StartDialogue(6); 
+            animSwitch = true; 
+            Dialoguer.StartDialogue(6);
+            source.PlayOneShot(growl, 0.5f); 
+            anim.Play("PrisonerGrowl1");
 
         }//dialogue that appears if the player has decided to take the book from the prisoner. 
 
