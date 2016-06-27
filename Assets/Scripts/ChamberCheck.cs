@@ -25,9 +25,19 @@ public class ChamberCheck : MonoBehaviour {
     {
         if (Globals.flashCursor == true)
         {
-            Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
-            Globals.chamberCursor = true;
-            Globals.flashCursor = false;
+            if (Application.loadedLevelName == "TestPicture")
+            {
+                Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
+                Globals.chamberCursor = true;
+                Globals.flashCursor = false;
+            }
+
+            if (Application.loadedLevelName == "SecondVisit")
+            {
+                Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
+                Globals.chamberCursor2 = true;
+                Globals.flashCursor = false;
+            }
            
         }
 

@@ -21,6 +21,10 @@ public class ClockOut : MonoBehaviour {
             {
                 Application.LoadLevel(2);
             }
+            if (Application.loadedLevelName == "SecondVisit")
+            {
+                Application.LoadLevel(3); 
+            }
         }//end of first if statement
     }
 

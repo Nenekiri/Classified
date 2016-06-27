@@ -8,4 +8,6 @@ public enum DialoguerDialogues{
 	First_Convo = 4,
 	Leaving_so_soon = 5,
 	Get_Out = 6,
+	Second_Convo = 7,
+	Water_Dish_Empty = 8,
 }

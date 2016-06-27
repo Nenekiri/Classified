@@ -673,7 +673,7 @@ MonoBehaviour:
       eventInfo: 
       eventInt: 0
       eventFloat: 0
-    fps: 5
+    fps: 10
     loopStart: 0
     wrapMode: 2
   - name: PrisonerGrowl1
@@ -741,7 +741,7 @@ MonoBehaviour:
       eventInfo: 
       eventInt: 0
       eventFloat: 0
-    fps: 5
+    fps: 9
     loopStart: 0
     wrapMode: 2
 --- !u!1001 &100100000

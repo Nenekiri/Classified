@@ -491,7 +491,7 @@ MonoBehaviour:
     - id: 2
       name: Book Test
       startPage: 0
-      scrollPosition: {x: 127.601364, y: 0}
+      scrollPosition: {x: 914.293152, y: 0}
       phases:
       - id: 0
         type: 0
@@ -691,7 +691,7 @@ MonoBehaviour:
       - id: 6
         type: 3
         theme: 
-        position: {x: 1899, y: 126}
+        position: {x: 1912, y: 82}
         outs: 08000000
         advanced: 0
         metadata: 
@@ -1290,7 +1290,7 @@ MonoBehaviour:
       - id: 3
         type: 0
         theme: 
-        position: {x: 184, y: 141}
+        position: {x: 188, y: 145}
         outs: 04000000
         advanced: 0
         metadata: 
@@ -1944,6 +1944,872 @@ MonoBehaviour:
       booleans:
         variables: []
         selection: 0
+    - id: 7
+      name: Second Convo
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 173, y: 36}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: "Well, here he is again. \nI trust there will be\nno problems."
+        name: Warden
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 0
+        theme: 
+        position: {x: 176, y: 170}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: "No sir! I can handle \nthis prisoner."
+        name: Guard
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 0
+        theme: 
+        position: {x: 172, y: 297}
+        outs: 03000000
+        advanced: 0
+        metadata: 
+        text: 'Same idea as last time, boy.
+
+          Just check his cell and report
+
+          back to me with anything
+
+          suspicious or out of place.'
+        name: Warden
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 0
+        theme: 
+        position: {x: 173, y: 435}
+        outs: 04000000
+        advanced: 0
+        metadata: 
+        text: "And I mean anything! You'd be\nsurprised at what can let a \nprisoner
+          escape. I once had\na woman fashion a hairbrush\ninto a shiv and kill three
+          guards!"
+        name: Warden
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 0
+        theme: 
+        position: {x: 475, y: 35}
+        outs: 05000000
+        advanced: 0
+        metadata: 
+        text: "I'll make sure to keep my wits \nabout me sir. "
+        name: Guard
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 5
+        type: 0
+        theme: 
+        position: {x: 478, y: 169}
+        outs: 06000000
+        advanced: 0
+        metadata: 
+        text: "That's a good lad! A few more\nshifts like the last one and \nyou could
+          get a promotion.\nGood luck to ya!"
+        name: Warden
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 6
+        type: 3
+        theme: 
+        position: {x: 479, y: 301}
+        outs: 07000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 5
+        variableScrollPosition: {x: 0, y: 14}
+        variableSetEquation: 0
+        variableSetValue: true
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 7
+        type: 6
+        theme: 
+        position: {x: 856, y: 313}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 8
+      name: Water Dish Empty
+      startPage: 0
+      scrollPosition: {x: 1208.49829, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 181, y: 22}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 'Are you thirsty? I see your
+
+          water dish is empty.'
+        name: Guard
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 0
+        theme: 
+        position: {x: 181, y: 156}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: Perhaps...
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 0
+        theme: 
+        position: {x: 180, y: 287}
+        outs: 03000000
+        advanced: 0
+        metadata: 
+        text: 'The real question is whether
+
+          you will give me drink
+
+          if I say yes. '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 1
+        theme: 
+        position: {x: 481, y: 21}
+        outs: 0400000005000000
+        advanced: 0
+        metadata: 
+        text: How do you respond?
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices:
+        - Why wouldn't I?
+        - 'Ha! You''re smarter than you look. '
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 0
+        theme: 
+        position: {x: 496, y: 276}
+        outs: 06000000
+        advanced: 0
+        metadata: 
+        text: 'Your job is not to give me water.
+
+          You have no reason to help me.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 5
+        type: 0
+        theme: 
+        position: {x: 495, y: 411}
+        outs: 06000000
+        advanced: 0
+        metadata: 
+        text: 'I seem to know you better than
+
+          you know yourself, Guard.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 6
+        type: 0
+        theme: 
+        position: {x: 795, y: 18}
+        outs: 07000000
+        advanced: 0
+        metadata: 
+        text: 'You''d be surprised, Prisoner. I
+
+          am not exactly as I seem. '
+        name: Guard
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 7
+        type: 1
+        theme: 
+        position: {x: 794, y: 150}
+        outs: 0b0000000d000000
+        advanced: 0
+        metadata: 
+        text: Do you give him water?
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices:
+        - Yes
+        - No
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 8
+        type: 0
+        theme: 
+        position: {x: 1429, y: 10}
+        outs: 09000000
+        advanced: 0
+        metadata: 
+        text: '...'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 9
+        type: 0
+        theme: 
+        position: {x: 1429, y: 146}
+        outs: 0f000000
+        advanced: 0
+        metadata: 
+        text: "Not even a thank you? Huh, \nI suppose I shouldn't expect\nmuch from
+          you. "
+        name: Guard
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 10
+        type: 0
+        theme: 
+        position: {x: 1427, y: 344}
+        outs: 0f000000
+        advanced: 0
+        metadata: 
+        text: 'I''d love to give you water,
+
+          but I don''t have clearance
+
+          from my Warden. Wouldn''t
+
+          be right to step out of line.'
+        name: Guard
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 11
+        type: 3
+        theme: 
+        position: {x: 1112, y: 10}
+        outs: 0c000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 6
+        variableScrollPosition: {x: 0, y: 33}
+        variableSetEquation: 0
+        variableSetValue: true
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 12
+        type: 3
+        theme: 
+        position: {x: 1116, y: 305}
+        outs: 08000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 1
+        variableId: 1
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 1
+        variableSetValue: 1
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 13
+        type: 3
+        theme: 
+        position: {x: 799, y: 404}
+        outs: 0a000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 1
+        variableId: 2
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 1
+        variableSetValue: 1
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 14
+        type: 6
+        theme: 
+        position: {x: 2513, y: 107}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 15
+        type: 4
+        theme: 
+        position: {x: 2013.04004, y: 11}
+        outs: 100000000e000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 7
+        variableScrollPosition: {x: 0, y: 52}
+        variableSetEquation: 0
+        variableSetValue: true
+        variableGetEquation: 1
+        variableGetValue: true
+        messageName: 
+      - id: 16
+        type: 3
+        theme: 
+        position: {x: 1782.04004, y: 373}
+        outs: 11000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 1
+        variableId: 3
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 2
+        variableSetValue: 1
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 17
+        type: 3
+        theme: 
+        position: {x: 2101.04004, y: 381}
+        outs: 0e000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 7
+        variableScrollPosition: {x: 0, y: 52}
+        variableSetEquation: 0
+        variableSetValue: true
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
     globals:
       booleans:
         variables:
@@ -1956,12 +2822,21 @@ MonoBehaviour:
         - name: potInteract
           variable: false
           id: 2
-        - name: bookInteract
+        - name: dishInteract2
           variable: false
           id: 3
         - name: takeBook
           variable: false
           id: 4
+        - name: SecondConvo
+          variable: false
+          id: 5
+        - name: WaterGiven
+          variable: false
+          id: 6
+        - name: dishInteract2
+          variable: false
+          id: 7
         selection: 0
       floats:
         variables:
@@ -1974,6 +2849,9 @@ MonoBehaviour:
         - name: badActs
           variable: 0
           id: 2
+        - name: SecondDay
+          variable: 3
+          id: 3
         selection: 0
       strings:
         variables: []
