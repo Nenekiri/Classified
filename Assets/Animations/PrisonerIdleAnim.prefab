@@ -744,6 +744,95 @@ MonoBehaviour:
     fps: 9
     loopStart: 0
     wrapMode: 2
+  - name: PrisonerGrowl1.5
+    frames:
+    - spriteCollection: {fileID: 11477232, guid: a32a36cff09fde7429758fc2b1c74524,
+        type: 2}
+      spriteId: 22
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11477232, guid: a32a36cff09fde7429758fc2b1c74524,
+        type: 2}
+      spriteId: 33
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11477232, guid: a32a36cff09fde7429758fc2b1c74524,
+        type: 2}
+      spriteId: 44
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11477232, guid: a32a36cff09fde7429758fc2b1c74524,
+        type: 2}
+      spriteId: 47
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11477232, guid: a32a36cff09fde7429758fc2b1c74524,
+        type: 2}
+      spriteId: 48
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11477232, guid: a32a36cff09fde7429758fc2b1c74524,
+        type: 2}
+      spriteId: 49
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11477232, guid: a32a36cff09fde7429758fc2b1c74524,
+        type: 2}
+      spriteId: 50
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11477232, guid: a32a36cff09fde7429758fc2b1c74524,
+        type: 2}
+      spriteId: 51
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11477232, guid: a32a36cff09fde7429758fc2b1c74524,
+        type: 2}
+      spriteId: 52
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11477232, guid: a32a36cff09fde7429758fc2b1c74524,
+        type: 2}
+      spriteId: 23
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11477232, guid: a32a36cff09fde7429758fc2b1c74524,
+        type: 2}
+      spriteId: 24
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11477232, guid: a32a36cff09fde7429758fc2b1c74524,
+        type: 2}
+      spriteId: 24
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 8
+    loopStart: 0
+    wrapMode: 2
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

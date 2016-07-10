@@ -95,7 +95,6 @@ GameObject:
   - 4: {fileID: 13497339}
   - 212: {fileID: 13497340}
   - 58: {fileID: 13497343}
-  - 50: {fileID: 13497342}
   - 114: {fileID: 13497341}
   m_Layer: 0
   m_Name: SimpleClock
@@ -111,7 +110,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 13497338}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.72000003, y: -1.02999997, z: -3.48000002}
+  m_LocalPosition: {x: 2.46000004, y: -1.13399994, z: -3.48000002}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 2001409176}
@@ -153,22 +152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a06308d2e2deb84d993d5054dd4cf80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!50 &13497342
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 13497338}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 3
 --- !u!58 &13497343
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -659,6 +642,9 @@ MonoBehaviour:
   cursorTexture: {fileID: 2800000, guid: 43902efda70c6144e9afebae65dd8d66, type: 3}
   cursorMode: 0
   hotSpot: {x: 0, y: 0}
+  defTexture: {fileID: 0}
+  dummyPot: {fileID: 0}
+  ring: {fileID: 0}
 --- !u!1 &421615427
 GameObject:
   m_ObjectHideFlags: 0
@@ -1159,7 +1145,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400006, guid: fb6eaea746900471a9fbd51765684ea5, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.75999999
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: fb6eaea746900471a9fbd51765684ea5, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1200,6 +1186,21 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fb6eaea746900471a9fbd51765684ea5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1000579116 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100006, guid: fb6eaea746900471a9fbd51765684ea5, type: 2}
+  m_PrefabInternal: {fileID: 1000579115}
+--- !u!114 &1000579117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1000579116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2acc84f9aa4c37a4bb8d85d6d2f46f0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1085967848
 GameObject:
   m_ObjectHideFlags: 0
@@ -1395,8 +1396,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cursorTexture: {fileID: 2800000, guid: 1e4db5f15b99c5f4db4da6a5502c05d1, type: 3}
+  cursorTexture2: {fileID: 0}
+  defTexture: {fileID: 0}
   cursorMode: 0
   hotSpot: {x: 0, y: 0}
+  fullDish: {fileID: 0}
 --- !u!50 &1260918768
 Rigidbody2D:
   serializedVersion: 2

@@ -10,4 +10,8 @@ public enum DialoguerDialogues{
 	Get_Out = 6,
 	Second_Convo = 7,
 	Water_Dish_Empty = 8,
+	Pot_Tipped_Over = 9,
+	Ring_Explanation = 10,
+	Come_Again = 11,
+	Hope_you_get_your_promotion = 12,
 }

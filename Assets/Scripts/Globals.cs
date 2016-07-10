@@ -12,10 +12,13 @@ public class Globals : MonoBehaviour {
     public static bool tookBook = false;
     public static bool chamberCursor = false;
     public static int FirstDay = 3;
+    public static bool lastCheck1 = false; 
 
     //second level
     public static bool dishCursor2 = false;
-    public static bool chamberCursor2 = false; 
+    public static bool chamberCursor2 = false;
+    public static bool ringCursor = false;
+    public static bool lastCheck2 = false; 
     
 
 

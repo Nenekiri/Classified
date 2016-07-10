@@ -17,13 +17,28 @@ public class ClockOut : MonoBehaviour {
     void OnMouseDown() {
         if (Globals.flashCursor == true)
         {   //check for which level to load
-            if (Application.loadedLevelName == "TestPicture")
+            if (Application.loadedLevelName == "TestPicture" && Globals.lastCheck1 == true)
             {
                 Application.LoadLevel(2);
             }
             if (Application.loadedLevelName == "SecondVisit")
             {
-                Application.LoadLevel(3); 
+                if (Dialoguer.GetGlobalFloat(1) >= 2 && Dialoguer.GetGlobalFloat(2) <= 1 && Globals.lastCheck2 == true)
+                {
+                    Application.LoadLevel("ThirdVisitGood");
+                }
+                if (Dialoguer.GetGlobalFloat(2) >= 2 && Dialoguer.GetGlobalFloat(1) <= 1 && Globals.lastCheck2 == true)
+                {
+                    Application.LoadLevel("ThirdVisitBad"); 
+                }
+            }
+            if (Application.loadedLevelName == "ThirdVisitGood")
+            {
+
+            }
+            if (Application.loadedLevelName == "ThirdVisitBad")
+            {
+
             }
         }//end of first if statement
     }

@@ -41,6 +41,8 @@ public class CollisionCheck_lv2 : MonoBehaviour {
             //reset the variables and the cursor
             Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
             Globals.dishCursor2 = false;
+            Globals.chamberCursor2 = false;
+            Globals.ringCursor = false; 
             Globals.flashCursor = true;
 
             
@@ -48,17 +50,17 @@ public class CollisionCheck_lv2 : MonoBehaviour {
 
         }
 
-        if (Dialoguer.GetGlobalFloat(3) == 0f)
+        if (Dialoguer.GetGlobalFloat(3) == 0f && Globals.lastCheck2 == true)
         {
             clock.SetActive(true);
         }
 
-        
 
-        //if (Dialoguer.GetGlobalBoolean(3) == true && animSwitch == false)
-        //{
-        //    anim.Play("test2");
-        //}
+
+        if (Dialoguer.GetGlobalBoolean(9) == true && animSwitch == false)
+        {
+            anim.Play("test2");
+        }
 
     }//end of update
 
@@ -74,36 +76,36 @@ public class CollisionCheck_lv2 : MonoBehaviour {
 
 
         }
-        if (Globals.runicCursor == true && Dialoguer.GetGlobalBoolean(3) == false)
+        if (Globals.chamberCursor2 == true && Dialoguer.GetGlobalBoolean(9) == false)
         {
-            Dialoguer.StartDialogue(2);
+            Dialoguer.StartDialogue(9);
             source.PlayOneShot(surprise);
             anim.Play("Prisoner Surprise");
 
-
         }
-        if (Globals.chamberCursor == true && Dialoguer.GetGlobalBoolean(2) == false)
+
+        if (Globals.ringCursor == true && Dialoguer.GetGlobalBoolean(10) == false)
         {
-            Dialoguer.StartDialogue(3);
-
-
+            Dialoguer.StartDialogue(10); 
         }
 
 
-        if (Dialoguer.GetGlobalFloat(0) == 0f)
+        if (Dialoguer.GetGlobalFloat(3) == 0f)
         {
-            Dialoguer.StartDialogue(5);
+            Dialoguer.StartDialogue(11);
+            Globals.lastCheck2 = true; 
 
-        }//normal ending to the first day. Introduces the player to the clock if they haven't clicked on it yet.
+        }//normal ending to the second day.
 
-        if (Dialoguer.GetGlobalFloat(0) == 0f && Dialoguer.GetGlobalBoolean(4) == true)
+        if (Dialoguer.GetGlobalFloat(3) == 0f && Dialoguer.GetGlobalBoolean(11) == true)
         {
             animSwitch = true;
-            Dialoguer.StartDialogue(6);
+            Globals.lastCheck2 = true; 
+            Dialoguer.StartDialogue(12);
             source.PlayOneShot(growl, 0.5f);
-            anim.Play("PrisonerGrowl1");
+            anim.Play("PrisonerGrowl1.5");
 
-        }//dialogue that appears if the player has decided to take the book from the prisoner. 
+        }//dialogue that appears if the player has decided to take the ring from the prisoner. 
 
     }//end of OnMouseDown
 }//end of class

@@ -11,3 +11,7 @@ EditorBuildSettings:
     path: Assets/Scenes/TestPicture.unity
   - enabled: 1
     path: Assets/Scenes/SecondVisit.unity
+  - enabled: 1
+    path: Assets/Scenes/ThirdVisitBad.unity
+  - enabled: 1
+    path: Assets/Scenes/ThirdVisitGood.unity

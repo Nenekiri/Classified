@@ -45,7 +45,7 @@ public class CollisionCheck : MonoBehaviour {
 
         }
 
-        if (Dialoguer.GetGlobalFloat(0) == 0f)
+        if (Dialoguer.GetGlobalFloat(0) == 0f && Globals.lastCheck1 == true)
         {
             clock.SetActive(true); 
         }
@@ -85,12 +85,14 @@ public class CollisionCheck : MonoBehaviour {
 
         if (Dialoguer.GetGlobalFloat(0) == 0f)
         {
-            Dialoguer.StartDialogue(5);  
+            Dialoguer.StartDialogue(5);
+            Globals.lastCheck1 = true; 
 
         }//normal ending to the first day. Introduces the player to the clock if they haven't clicked on it yet.
 
         if (Dialoguer.GetGlobalFloat(0) == 0f && Dialoguer.GetGlobalBoolean(4) == true) {
-            animSwitch = true; 
+            animSwitch = true;
+            Globals.lastCheck1 = true;
             Dialoguer.StartDialogue(6);
             source.PlayOneShot(growl, 0.5f); 
             anim.Play("PrisonerGrowl1");
